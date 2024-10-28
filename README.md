@@ -1,6 +1,26 @@
 # E-Commerce Sales Analysis 
 ## Project Overview
 This project focuses on analyzing the sales performance of an e-commerce company during January and February. By examining various aspects of the sales data, the goal is to gain insights into key products, identify significant customers, and assess the overall effectiveness of business operations.
+
+## Key Insights:
+- **Key products**
+
+  - **Top Sellers:** Home Decor and Laptops are the most popular products, accounting for nearly 60% of total sales.
+  - **Moderate Demand:** Furniture and Headphones show significant sales, though less pronounced than the top two.
+  - **Niche Products:** Smartphones and Haircare Products have much lower sales figures, indicating a more niche market interest.
+
+- **Key customers**
+  
+  - **United States** stands out as the most profitable country, significantly contributing to total profits. It also houses the highest-spending customers, indicating a strong market potential.
+  - **Poland** follows with a solid profit, supported by mid-range top spenders, suggesting opportunities for growth and marketing strategies aimed at these consumers.
+  - **Ireland**, while lower in profit, still represents a potential market, and high-value customers.
+
+- **Key customers**
+  
+  - **Operational Efficiency:** The high success rate of order processing indicates robust operational efficiency. However, the few unsuccessful orders highlight the need for ongoing monitoring and improvement of processes.
+  - **Customer Spending Behavior:** AOV and AC reflect how much customers are willing to spend per order and per transaction. With AOV at 502 units and AC at 24 units, there is room for improvement in increasing both metrics. Strategies like targeted marketing, product recommendations, and enhancing the customer experience can help.
+  - **Customer Lifetime Value:** A high LTV of 47,572 units shows strong customer loyalty and suggests that investing in customer acquisition can yield long-term benefits. This is a strong indicator of potential profitability.
+
 ## Data Sources
 Sales Data: the primary datasets used for this analisys are the "fact_sales_february.xlsx" file and "fact_sales_january.csv" file containing comprehensive details about each transaction completed by the company. They representing January and February sales respectively. Each contains detailed transactional data about sales. Each record represents a sales invoice with the following key attributes:
 - **Invoice:** identifier for each invoice
