@@ -9,13 +9,13 @@ This project focuses on analyzing the sales performance of an e-commerce company
   - **Moderate Demand:** Furniture and Headphones show significant sales, though less pronounced than the top two.
   - **Niche Products:** Smartphones and Haircare Products have much lower sales figures, indicating a more niche market interest.
 
-- **Key customers**
+- **Significant customers**
   
   - **United States** stands out as the most profitable country, significantly contributing to total profits. It also houses the highest-spending customers, indicating a strong market potential.
   - **Poland** follows with a solid profit, supported by mid-range top spenders, suggesting opportunities for growth and marketing strategies aimed at these consumers.
   - **Ireland**, while lower in profit, still represents a potential market, and high-value customers.
 
-- **Key customers**
+- **Overall effectiveness of business operations**
   
   - **Operational Efficiency:** The high success rate of order processing indicates robust operational efficiency. However, the few unsuccessful orders highlight the need for ongoing monitoring and improvement of processes.
   - **Customer Spending Behavior:** AOV and AC reflect how much customers are willing to spend per order and per transaction. With AOV at 502 units and AC at 24 units, there is room for improvement in increasing both metrics. Strategies like targeted marketing, product recommendations, and enhancing the customer experience can help.
