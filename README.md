@@ -44,17 +44,17 @@ Additional primary dataset is "dim_stock.xlsx" file and it provides detailed inf
 - LTV (Lifetime Value): What is the total spending of a customer across all transactions?
 - Average Check: What is the average amount spent by a customer per transaction?
 ## Visualization
+- **Total Sales by Country:** The table provides a breakdown of profit by country, which can be used to analyze the profitability across different regions. Top three Countries by Profit: United States leads with a substantial margin, generating $53,534 in profit, which represents the highest profitability among all listed countries. Poland follows with $33,915, indicating strong performance in this region as well. Ireland is in third place with $12,648.
+
+
 - **Trends:** Used line charts to visualize trends over time for sales quantities and prices.
 ![Trends](https://github.com/user-attachments/assets/ec1d39f2-452b-4e04-955a-3716c5088fdf)
 
 - **Distributions:** Utilized column and bar charts to display distributions such as top-selling products.
 ![Top 10 Best-Sellings Products](https://github.com/user-attachments/assets/ca3362d9-f857-41f5-a02d-218821ebaf4b)
 
+- **Order Status Distribution:** The distribution of order statuses reveals a high success rate for orders. Out of a total of 29,999 orders, 29,923 were successful, and only 76 were unsuccessful. This means that 99.75% of orders were completed successfully, while 0.25% were not. This high success rate indicates efficient order processing, though the small percentage of unsuccessful orders suggests potential areas for improvement to further enhance reliability.
+  
 - **Geographical Distribution:** Employed map charts to illustrate the geographical distribution of total sales by country.
 ![Total sales by country](https://github.com/user-attachments/assets/4faa2fda-f72f-47cd-8db2-df9584306552)
-
-
-- **Category Shares:** Used pie charts to show the share of a maximum of three categories, such as the distribution of order statuses.
-![Order Status Distribution](https://github.com/user-attachments/assets/6a993b35-1819-4206-b3b1-b9db0e0bbf48)
-
 
