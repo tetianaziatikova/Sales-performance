@@ -37,24 +37,54 @@ Additional primary dataset is "dim_stock.xlsx" file and it provides detailed inf
 - Sales Trends Over Time: How do sales quantities and prices trend over different time periods?
 - Top 10 Best-Selling Products: What are the top 10 best-selling products by quantity?
 - Sales Performance by Category: What is the sales performance by product category and sub-category?
-- Top Spending Customers: Which customers have the highest total spending?
-- Repeat Customers: How many customers have made multiple purchases?
+- Top 10 Spending Customers: Which customers have the highest total spending?
+- Repeat Customers: How many customers have made multiple purchases and Top 10 Repeat Customers?
 - Order Status Distribution: What is the distribution of order statuses?
 - Average Order Value: What is the average order value across all invoices?
 - LTV (Lifetime Value): What is the total spending of a customer across all transactions?
 - Average Check: What is the average amount spent by a customer per transaction?
 ## Visualization
-- **Total Sales by Country:** The table provides a breakdown of profit by country, which can be used to analyze the profitability across different regions. Top three Countries by Profit: United States leads with a substantial margin, generating $53,534 in profit, which represents the highest profitability among all listed countries. Poland follows with $33,915, indicating strong performance in this region as well. Ireland is in third place with $12,648.
+- **Total Sales by Country:** The table provides a breakdown of profit by country, which can be used to analyze the profitability across different regions.
+<img width="317" alt="Total Sales by Country" src="https://github.com/user-attachments/assets/ab214f0e-ac13-473d-b6da-c73ef56a2899">
+
+Top three Countries by Profit: United States leads with a substantial margin, generating $53,534 in  profit, which represents the highest profitability among all listed countries. Poland follows with
+$33,915, indicating strong performance in this region as well. Ireland is in third place with $12,648. And aditionaly the Table with Profit by top 10 Country and all Category where the higher profit marked with a darker color.
+
+<img width="510" alt="Profit by Top 10 Country and Category" src="https://github.com/user-attachments/assets/84691020-b9a1-494a-b2fc-d6b438da7376">
+
+- **Geographical Distribution:** Employed map charts to illustrate the geographical distribution of total sales by country.
+<img width="551" alt="Total sales by country_" src="https://github.com/user-attachments/assets/e3997598-3eaa-45e8-a947-fcd37169b418">
 
 
-- **Trends:** Used line charts to visualize trends over time for sales quantities and prices.
-![Trends](https://github.com/user-attachments/assets/ec1d39f2-452b-4e04-955a-3716c5088fdf)
+- **Trends:** Used line charts to visualize trends over time for sales quantities and prices. 
+<img width="486" alt="Trends_2" src="https://github.com/user-attachments/assets/646cac41-e31e-48d6-a4ed-848643bc2607">
+
+In analyzing the sales data for 2010, there is a clear fluctuation in sales quantities and average prices over time. The total sales quantity for the period reached 460,506 units, with an average price of $3.80. Most daily prices remained steady at $3; however, certain days saw significant price spikes, such as January 8th and January 29th, when the price rose to $6 and $14, respectively. These price increases appear isolated and do not consistently correlate with sales quantity, suggesting that demand may have been influenced more by external factors rather than price alone. Days with exceptionally high quantities, like January 21st (72,914 units), maintained the typical low average price of $3. Overall, the data indicates stable demand with occasional quantity peaks and rare price fluctuations, which may point to specific promotional events or demand surges.
 
 - **Distributions:** Utilized column and bar charts to display distributions such as top-selling products.
-![Top 10 Best-Sellings Products](https://github.com/user-attachments/assets/ca3362d9-f857-41f5-a02d-218821ebaf4b)
+<img width="615" alt="Top 10 Best-Sellings Products_2" src="https://github.com/user-attachments/assets/048191d2-ec6c-4b75-a979-c090b7707828">
 
+The top 10 best-selling products reveal that Home Decor and Laptops dominate sales, with 134,810 and 126,312 units sold, making up nearly 60% of total sales. Furniture follows with 72,149 units, while Headphones and Skincare Products sold 38,066 and 16,273 units, respectively. Sports Equipment and Accessories also show demand with 13,316 and 11,352 units sold. Smartphones and Haircare Products sold fewer units, at 7,023 and 4,824, suggesting more niche interest. This highlights strong consumer focus on home goods and electronics.
+
+- **Top 10 Spending Customers:**
+<img width="536" alt="Total 10 Spendigs Customers" src="https://github.com/user-attachments/assets/d49a5034-1b43-43b2-87a6-e8cfc47bb747">
+
+The top-spending customers show a significant range in total expenditure, with the highest individual spending reaching over 35 million units. Customer IDs such as 13902 and 18102 stand out, having spent 35.9 million and 12.5 million units, respectively. Mid-range top spenders include customers 16029 and 14646, with expenditures in the range of 2.6 to 6.3 million units.
+
+- **Repeat Customers:** Used pivot table in Excel to calculate general number of Repeat Customers. There are 29960 such Customers. Aditionaly Top 10 Repeat Customers shown on the graph.
+<img width="537" alt="Repeat Customers for 16 years" src="https://github.com/user-attachments/assets/75dd0be2-495b-43be-ab53-f1d4c80470b0">
+
+## Сalculations
 - **Order Status Distribution:** The distribution of order statuses reveals a high success rate for orders. Out of a total of 29,999 orders, 29,923 were successful, and only 76 were unsuccessful. This means that 99.75% of orders were completed successfully, while 0.25% were not. This high success rate indicates efficient order processing, though the small percentage of unsuccessful orders suggests potential areas for improvement to further enhance reliability.
+
+- **Average Order Value:** Used pivot table and functions in Excel to calculate Average Order Value (AOV). AOV = Total Revenue / Number of Orders. For this case it is 502 units.
+
+- **Lifetime Value:** Used pivot table and functions in Excel to calculate Lifetime Value (LTV). LTV = Average customer lifetime (years) * Average purchase * Average number of purchases per year. LTV = 47572 units.
   
-- **Geographical Distribution:** Employed map charts to illustrate the geographical distribution of total sales by country.
-![Total sales by country](https://github.com/user-attachments/assets/4faa2fda-f72f-47cd-8db2-df9584306552)
+- **Average Check:** Used pivot table and functions in Excel to calculate Average Check (AC). AC = Total income / Number of transactions (transaction_id). AC = 24 units.
+<img width="525" alt="Calculation" src="https://github.com/user-attachments/assets/50d624db-1d52-49ae-aa63-657d14034b3d">
+
+These three metrics (AOV, LTV and AC) are important for business analysis. They allow you to understand how customers interact with your products, how much they spend, and what strategies can be effective to increase revenues.
+  
+
 
