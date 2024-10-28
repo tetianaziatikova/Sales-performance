@@ -42,6 +42,7 @@ Additional primary dataset is "dim_stock.xlsx" file and it provides detailed inf
 - Power Query Editor - Appending sales data from multiple sources into a single table
 - Pivot table Excel - Data Analysis
 - Pivot chart Excel - Data Visualization
+- Looker Studio - Data Visualization
 ## Data Preparation and Quality Improvement
 **1. Appended Sales Data:** Used Power Query Editor to append sales data from multiple sources into a single table for comprehensive analysis.
 
@@ -103,8 +104,3 @@ The top-spending customers show a significant range in total expenditure, with t
   
 - **Average Check:** Used pivot table and functions in Excel to calculate Average Check (AC). AC = Total income / Number of transactions (transaction_id). AC = 24 units.
 <img width="525" alt="Calculation" src="https://github.com/user-attachments/assets/50d624db-1d52-49ae-aa63-657d14034b3d">
-
-These three metrics (AOV, LTV and AC) are important for business analysis. They allow you to understand how customers interact with your products, how much they spend, and what strategies can be effective to increase revenues.
-  
-
-
