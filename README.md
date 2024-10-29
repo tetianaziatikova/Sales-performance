@@ -68,8 +68,7 @@ Additional primary dataset is "dim_stock.xlsx" file and it provides detailed inf
 - **Total Sales by Country:** The table provides a breakdown of profit by country, which can be used to analyze the profitability across different regions.
 <img width="317" alt="Total Sales by Country" src="https://github.com/user-attachments/assets/ab214f0e-ac13-473d-b6da-c73ef56a2899">
 
-Top three Countries by Profit: United States leads with a substantial margin, generating $53,534 in  profit, which represents the highest profitability among all listed countries. Poland follows with
-$33,915, indicating strong performance in this region as well. Ireland is in third place with $12,648. And aditionaly the Table with Profit by top 10 Country and all Category where the higher profit marked with a darker color.
+**Top three Countries by Profit:** United States leads with a substantial margin, generating $53,534 in  profit, which represents the highest profitability among all listed countries. Poland follows with $33,915, indicating strong performance in this region as well. Ireland is in third place with $12,648. And aditionaly the Table with Profit by top 10 Country and all Category where the higher profit marked with a darker color.
 
 <img width="510" alt="Profit by Top 10 Country and Category" src="https://github.com/user-attachments/assets/84691020-b9a1-494a-b2fc-d6b438da7376">
 
@@ -80,7 +79,7 @@ $33,915, indicating strong performance in this region as well. Ireland is in thi
 - **Trends:** Used line charts to visualize trends over time for sales quantities and prices. 
 <img width="486" alt="Trends_2" src="https://github.com/user-attachments/assets/646cac41-e31e-48d6-a4ed-848643bc2607">
 
-In analyzing the sales data for 2010, there is a clear fluctuation in sales quantities and average prices over time. The total sales quantity for the period reached 460,506 units, with an average price of $3.80. Most daily prices remained steady at $3; however, certain days saw significant price spikes, such as January 8th and January 29th, when the price rose to $6 and $14, respectively. These price increases appear isolated and do not consistently correlate with sales quantity, suggesting that demand may have been influenced more by external factors rather than price alone. Days with exceptionally high quantities, like January 21st (72,914 units), maintained the typical low average price of $3. Overall, the data indicates stable demand with occasional quantity peaks and rare price fluctuations, which may point to specific promotional events or demand surges.
+The total sales quantity for the period reached 460,506 units, with an average price of $3.80. Most daily prices remained steady at $3; however, certain days saw significant price spikes, such as January 8th and January 29th, when the price rose to $6 and $14, respectively. These price increases appear isolated and do not consistently correlate with sales quantity, suggesting that demand may have been influenced more by external factors rather than price alone. Days with exceptionally high quantities, like January 21st (72,914 units), maintained the typical low average price of $3. Overall, the data indicates stable demand with occasional quantity peaks and rare price fluctuations.
 
 - **Distributions:** Utilized column and bar charts to display distributions such as top-selling products.
 <img width="615" alt="Top 10 Best-Sellings Products_2" src="https://github.com/user-attachments/assets/048191d2-ec6c-4b75-a979-c090b7707828">
